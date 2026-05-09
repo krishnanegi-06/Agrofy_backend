@@ -41,6 +41,10 @@ import java.util.logging.Logger;
 @CrossOrigin(origins = "*")
 public class AgripulseController {
 
+        @GetMapping("/")
+public String home() {
+    return "Agrofy Backend Running Successfully";
+}
     private static final Logger log = Logger.getLogger(AgripulseController.class.getName());
 
     @Autowired private ImageProcessingService imageProcessingService;
