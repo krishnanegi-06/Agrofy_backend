@@ -1,0 +1,10 @@
+com\agripulse\model\AnalysisResponse.class
+com\agripulse\service\AnalysisRepository.class
+com\agripulse\service\ImageProcessingService.class
+com\agripulse\service\IrrigationService.class
+com\agripulse\service\WeatherService.class
+com\agripulse\config\CorsConfig.class
+com\agripulse\model\WeatherData.class
+com\agripulse\AgripulseApplication.class
+com\agripulse\controller\AgripulseController.class
+com\agripulse\model\AnalysisRecord.class
